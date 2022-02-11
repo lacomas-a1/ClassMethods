@@ -1,0 +1,13 @@
+Python classmethod
+Unlike Static Methods, classmethod in Python bound to a Class. So, we don’t have to create an instance or object of a class to call this class method. A Python classmethod receives cls (class) as an implicit first argument, just like a standard method receives self as the first argument. This cls allows you to access the class variables, methods, and the static methods of the class or instance.
+
+You can define any method as this one by using the Python @ decorator or classmethod() function. Either way, it works, but it is always advisable to go for the first option. The syntax of the Python classmethod def is
+
+Class A:
+    @classmethod
+    def function_name(cls, arg1, arg2,....):
+         ........
+         ......
+You can call the class method using ClassName.MethodName or ClassName().MethodName(). Both ways will return the result.
+
+In this section, we show how to create or define a classmethod in Python programming language using the @ decorator and () function with ex
